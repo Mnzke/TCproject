@@ -38,6 +38,9 @@ jobs:
       - name: Build VuePress site
         run: npm run docs:build
 
+      # 创建 .nojekyll 文件禁用 Jekyll 构建
+      - name: Create .nojekyll file
+        run: touch docs/.vuepress/dist/.nojekyll
 
       # 查看 workflow 的文档来获取更多信息
       # @see https://github.com/crazy-max/ghaction-github-pages
