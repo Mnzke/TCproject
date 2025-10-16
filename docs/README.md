@@ -14,8 +14,8 @@ config:
       actions:
         -
           theme: brand
-          text: Blog
-          link: /blog/
+          text: IEEE Guide
+          link: /guide/
         -
           theme: alt
           text: Github →
