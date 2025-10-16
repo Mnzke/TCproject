@@ -18,6 +18,6 @@ config:
           link: /guide/introduction.html
         -
           theme: alt
-          text: Github →
-          link: https://github.com/pengzhanbo/vuepress-theme-plume
+          text: SEU library →
+          link: http://www.lib.seu.edu.cn/
 ---
