@@ -1,4 +1,3 @@
-<script>
-  window.location.href = '/TCproject/guide/introduction.html'
-</script>
+<!-- 重定向到介绍页面 -->
+<meta http-equiv="refresh" content="0; url=/TCproject/guide/introduction.html">
 
