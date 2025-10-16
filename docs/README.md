@@ -24,13 +24,13 @@ config:
 
   -
     type: text-image
-    title: IEEE database
-    description: This project is a guide for using the IEEE database at Southeast University, aiming to help students, teachers, and researchers make better use of the IEEE database resources.
+    title: IEEE Database
+    description: This comprehensive guide provides essential information for effectively utilizing the IEEE database at Southeast University. Designed to assist students, faculty, and researchers in maximizing their access to valuable academic resources.
     image: ieee mb tag blue pne.png
     list:
       -
         title: Introduction
-        description: The Institute of Electrical and Electronics Engineers (IEEE) is the world's largest professional association dedicated to advancing technology for the benefit of humanity. It publishes numerous high - quality technical articles and standards in various fields of electrical engineering, electronics, and computer science.
+        description: The Institute of Electrical and Electronics Engineers (IEEE) stands as the world's largest professional association committed to advancing technological innovation for humanity's benefit. It publishes high-quality technical articles and standards across electrical engineering, electronics, and computer science disciplines.
   -
     type: image-text
     title: Southeast University
@@ -38,18 +38,18 @@ config:
     list:
       -
         title: History
-        description: Southeast University (SEU), a leading national university in China, traces its roots back to 1902. It has a rich history of over a century in education and research.
+        description: Founded in 1902, Southeast University (SEU) has cultivated a distinguished legacy spanning over a century in higher education and research excellence.
       -
         title: Reputation
-        description: SEU is recognized as one of the most prestigious universities in China, included in the national "Double First - Class" and "Project 211" and "Project 985" initiatives.
+        description: SEU ranks among China's most prestigious institutions, recognized through national "Double First-Class" initiatives and prestigious Project 211 and 985 designations.
       -
         title: Academic Strength
-        description: SEU excels in multiple disciplines, especially in electrical engineering, computer science, and architecture. It offers a wide range of high - quality academic programs at undergraduate, postgraduate, and doctoral levels.
+        description: The university demonstrates exceptional prowess across multiple disciplines, with particular distinction in electrical engineering, computer science, and architectural studies.
       -
         title: Campus Culture
-        description: With a vibrant campus culture, SEU encourages innovation, interdisciplinary cooperation, and international exchanges, fostering well - rounded talents for the future.
+        description: SEU fosters a dynamic academic environment that promotes innovation, interdisciplinary collaboration, and global engagement to develop well-rounded future leaders.
       -
         title: Research Achievements
-        description: SEU conducts cutting - edge research in various fields, contributing significantly to technological advancements and social development through numerous research projects and patents.
+        description: The institution conducts pioneering research across diverse fields, making substantial contributions to technological progress and societal advancement through extensive research initiatives.
 
 ---

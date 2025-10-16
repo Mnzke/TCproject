@@ -1,0 +1,143 @@
+/* 自定义样式 - 修改title和description字体大小 */
+
+/* 修改hero部分的title字体大小 */
+.hero .name {
+  font-size: 3rem !important;
+  font-weight: 700 !important;
+}
+
+/* 修改hero部分的tagline字体大小 */
+.hero .tagline {
+  font-size: 1.5rem !important;
+  font-weight: 400 !important;
+}
+
+/* 修改text-image和image-text部分的title字体大小 */
+.text-image .title,
+.image-text .title {
+  font-size: 2rem !important;
+  font-weight: 600 !important;
+}
+
+/* 优化文本排版样式 */
+.text-image .description,
+.image-text .description,
+.text-image p,
+.image-text p,
+.text-image *,
+.image-text * {
+  font-size: 1.1rem !important;
+  line-height: 1.8 !important;  /* 增加行高，提高可读性 */
+  text-align: justify !important;
+  text-justify: inter-word !important;
+  letter-spacing: 0.01em !important;  /* 轻微字间距 */
+  word-spacing: 0.05em !important;  /* 单词间距 */
+  margin-bottom: 1rem !important;  /* 段落间距 */
+}
+
+/* 更通用的选择器，确保所有描述文本两端对齐 */
+.description,
+p {
+  text-align: justify !important;
+  text-justify: inter-word !important;
+  line-height: 1.7 !important;
+  font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif !important;  /* 优化字体栈 */
+}
+
+/* 优化标题样式 - 增强与描述的区分度 */
+.text-image .title,
+.image-text .title {
+  font-weight: 700 !important;  /* 更粗的字体 */
+  font-size: 1.6rem !important;  /* 更大的字体 */
+  margin-bottom: 1rem !important;  /* 更大的间距 */
+  color: #1a365d !important;  /* 更深的蓝色 */
+  letter-spacing: -0.02em !important;  /* 紧凑的字间距 */
+  line-height: 1.3 !important;  /* 紧凑的行高 */
+}
+
+/* 优化列表项样式 - 增强层次感 */
+.text-image .list .title,
+.image-text .list .title {
+  font-weight: 600 !important;  /* 中等粗体 */
+  font-size: 1.3rem !important;  /* 更大的字体 */
+  margin-bottom: 0.8rem !important;  /* 更大的间距 */
+  color: #2d3748 !important;  /* 深灰色 */
+  letter-spacing: -0.01em !important;
+  line-height: 1.4 !important;
+}
+
+.text-image .list .description,
+.image-text .list .description {
+  font-size: 1rem !important;
+  line-height: 1.7 !important;
+  color: #4a5568 !important;  /* 中灰色 */
+  font-weight: 400 !important;  /* 正常字体粗细 */
+  margin-top: 0 !important;
+  margin-bottom: 1.5rem !important;  /* 更大的段落间距 */
+}
+
+/* 主区块描述文本样式 */
+.text-image .description,
+.image-text .description {
+  font-size: 1.1rem !important;
+  line-height: 1.8 !important;
+  color: #4a5568 !important;  /* 中灰色 */
+  font-weight: 400 !important;
+  margin-top: 0.5rem !important;
+  margin-bottom: 1.5rem !important;
+}
+
+/* 添加标题下划线效果 */
+.text-image .title::after,
+.image-text .title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, #3182ce, #63b3ed);
+  margin-top: 0.5rem !important;
+  border-radius: 2px;
+}
+
+.text-image .list .title::after,
+.image-text .list .title::after {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 2px;
+  background: linear-gradient(90deg, #4299e1, #90cdf4);
+  margin-top: 0.3rem !important;
+  border-radius: 1px;
+}
+
+/* 修改list中的title字体大小 */
+.text-image .list .title,
+.image-text .list .title {
+  font-size: 1.3rem !important;
+  font-weight: 600 !important;
+}
+
+/* 修改list中的description字体大小 */
+.text-image .list .description,
+.image-text .list .description {
+  font-size: 1rem !important;
+  line-height: 1.5 !important;
+}
+
+/* 调整导航栏logo大小 */
+.navbar .logo {
+  height: 2rem !important;
+  max-height: 2rem !important;
+}
+
+.navbar .logo img {
+  height: 2rem !important;
+  width: auto !important;
+  max-height: 2rem !important;
+}
+
+/* 调整profile头像大小 */
+.profile .avatar {
+  width: 4rem !important;
+  height: 4rem !important;
+}
