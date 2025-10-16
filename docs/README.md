@@ -15,7 +15,7 @@ config:
         -
           theme: brand
           text: IEEE Guide
-          link: /guide/
+          link: /guide/introduction.html
         -
           theme: alt
           text: Github →
