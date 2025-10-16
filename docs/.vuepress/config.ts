@@ -177,45 +177,26 @@ export default defineUserConfig({
     // encrypt: {},
     // 顶部导航栏
     
-sidebar: {
-  '/guide/': [
-    {
-      text: 'Introduction',
-      collapsed: true,
-      items: [
-        { text: 'Introduction', link: '/guide/introduction.html' },
-        
+    sidebar: {
+      '/guide/': [
+        {
+          text: 'Introduction',
+          link: '/guide/introduction.html'
+        },
+        {
+          text: 'Access Methods',
+          link: '/guide/access.html'
+        },
+        {
+          text: 'Search Methods',
+          link: '/guide/search.html'
+        },
+        {
+          text: 'Reading and Downloading',
+          link: '/guide/readanddownload.html'
+        },
       ],
-    },
-    {
-      text: 'Access Methods',
-      collapsed: true,
-      items: [
-        { text: 'Access Methods', link: '/guide/access.html' },
-        
-      ],
-    },
-    {
-      text: 'Search Methods',
-      collapsed: true,
-      items: [
-        { text: 'Global Search', link: '/guide/global.html' },
-        { text: 'Advanced Search', link: '/guide/advanced.html' },
-        { text: 'Command Search', link: '/guide/command.html' },
-        { text: 'Author Search', link: '/guide/author.html' },
-      ],
-    },
-    {
-      text: 'Reading and Downloading',
-      collapsed: true, // 展开显示
-      items: [
-        { text: 'Reading and Downloading', link: '/guide/readanddownload.html' }
-      ],
-    },
-  ],
-}
+    }
 
-
-    
   }),
 })

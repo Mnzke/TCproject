@@ -68,6 +68,7 @@ export default defineThemeConfig({
 
       navbar: enNavbar,
       collections: enCollections,
+  
 
       /**
        * 公告板
