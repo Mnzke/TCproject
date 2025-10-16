@@ -6,10 +6,11 @@ config:
     type: hero
     full: true
     background: tint-plate
+    tintPlate:  190
     hero:
-      name: Theme Plume
-      tagline: VuePress Next Theme
-      text: A simple, feature-rich, document & blog
+      name: IEEE Guide
+      tagline: A Guide for IEEE Database
+      text: 
       actions:
         -
           theme: brand
