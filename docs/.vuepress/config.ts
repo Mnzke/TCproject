@@ -13,6 +13,7 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 
+
 export default defineUserConfig({
   base: '/TCproject/',
   lang: 'en-US',
@@ -196,8 +197,17 @@ export default defineUserConfig({
           text: 'Reading and Downloading',
           link: '/guide/readanddownload.html'
         },
+        {
+          text: 'Tools',
+          link: '/guide/markdown.html'
+        },
       ],
-    }
+    },
+
+ 
+   
+ 
 
   }),
 })
+
