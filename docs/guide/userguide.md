@@ -1,6 +1,7 @@
 ---
 title: User Guide
 createTime: 2025/10/17 13:17:36
+permalink: /guide/l6h9ke93/
 
 ---
 ## **🚪 Access Methods**
@@ -175,7 +176,7 @@ Type a new term in the **“Search within results”** box at the top of the pag
 ---
 ![搜索相关图片](../src/guide/down.png)
 
-### **Online Reading**
+### **🌐 Online Reading**
 
 Every record offers three main buttons: **Abstract**, **HTML**, and **PDF**.
 
