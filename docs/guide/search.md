@@ -67,6 +67,16 @@ This feature lets you quickly locate papers by a specific author.
 
 -----
 
+### **5. 📚 Publication Retrieval**
+
+* You can select the **type** of publication you need to find and quickly locate it by searching by keywords.
+*	You can search by the **first letter** of the publication or click By Topic to filter a second time by discipline.If you select a discipline type, you can still filter again by the first letter of the publication.
+*	You can also refine your search results using the **cluster analysis bar** (Refine results by) on the left side of the page. Sort By and Items Per Page adjust the number of titles displayed per page and the sorting order.
+*	You can find the publication you need and directly click on the title to access its journal page (journals and magazines) or abstract (standards, e-books, and online courses).Some journals offer the option to download entire issues.
+
+
+-----
+
 ## 📊 Analyzing Search Results
 
 -----
