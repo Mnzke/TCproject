@@ -207,6 +207,18 @@ export default defineUserConfig({
           text: 'Tools',
           link: '/guide/markdown.html'
         },
+        {
+          text: 'Author Information',
+          link: '/guide/authordetail.html'
+        },
+        {
+          text: 'Personal Preferences',
+          link: '/guide/personal.html'
+        },
+        {
+          text: 'Addition of Articles',
+          link: '/guide/articleadd.html'
+        },
       ],
     },
 
