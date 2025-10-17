@@ -31,17 +31,22 @@ The platform automatically normalizes British/American spelling, singular/plural
 ### **2. ⚙️ Advanced Search**
 ![Advanced Search](../src/guide/advanced.png)
   * **Access:** Click **“Advanced Search”** beneath the main search box.
-  * **How to use:**
-      * Fill in the three-line template: choose “field – operator – search term”; add more rows as needed.
-      * Supports **“AND / OR / NOT”**; parentheses `()` for nesting are **“not”** supported.
-      * Use the options at the bottom of the page to limit publication years.
+
+  ::: tip
+   **How to use:**
+    * **Fill in the three-line template**: choose ==**“field – operator – search term”**==; add more rows as needed.
+    * Supports **“AND / OR / NOT”**; ==parentheses `()` for nesting are **“not”** supported.==
+    * Use the options at the bottom of the page to limit publication years.
+  :::
 
 -----
 
 ### **3. ⌨️ Command Search**
 ![Command Search](../src/guide/command.png)
   * **Access point:** **“Command Search”**, located to the right of Advanced Search.
+  ::: tip
   * **How to use:** The syntax is identical to the single-box search, but it provides field buttons and respects parenthesis priority, making it ideal for complex strategies.
+  :::
 
 **Example:**
 
@@ -58,12 +63,15 @@ This mode supports `NEAR`/`ONEAR` operators, nested parentheses, and has a query
 This feature lets you quickly locate papers by a specific author.
 
   * **Access:** Choose **“Authors”** from the drop-down menu on the left side of the top search box.
+  
+  ::: warning
   * **Points to remember:**
-      * The platform searches all fields and is **not case-sensitive**.
+      * The platform searches all fields and is ==**not case-sensitive**==.
       * **Wildcards** are allowed, but at least three letters must be given in either the first or last name (e.g., `M*ke Jone` is valid; `J*y` is not).
-      * Citation downloads display the normalized form: surname plus first-name initials.
+      * Citation downloads display the normalized form: ==surname plus first-name initials==.
       * The selected author name appears at the top of the results; a small **“x”** beside it lets you remove that filter.
       * Use the left-hand facet panel to refine the results further.
+  :::
 
 -----
 
@@ -86,16 +94,19 @@ This feature lets you quickly locate papers by a specific author.
 
 Each record shows:
 
-  * **Paper title** (click to expand the abstract)
-  * **All authors** (click any name to open the Author Detail page)
-  * Author affiliations
-  * Publication title, volume, issue, pages
-  * Publication or conference date
-  * DOI
-  * Document-type icon (Journal, Conference, Standard, etc.)
-  * Citation counts (separate tallies for papers and patents)
-  * Full-text views/downloads
-  * **Access indicator:** The 🔓 icon or the label **“Open Access”** signals that the PDF can be downloaded.
+| Record | Explanation |
+| :---: | :---: |
+| **Paper title** | The document's official title. Can be expanded to show the abstract (a summary of the work). |
+| **All authors** | Lists all individuals credited with authorship. Names may link to author-specific detail pages. |
+| **Author affiliations** | The organizations (e.g., university, corporation) associated with each author at the time of publication. |
+| **Publication title, volume, issue, pages** | Full bibliographic details for the source, including journal/conference title, volume, issue, and page numbers. |
+| **Publication or conference date** | The date the document was officially published or presented. |
+| **DOI** | Digital Object Identifier (DOI). A unique, persistent link to the online location of the document. |
+| **Document-type icon** | A visual icon that identifies the document's publication format (e.g., Journal, Conference Paper, Standard). |
+| **Citation counts** | The total number of times the document has been cited by other publications, often separated into paper and patent citations. |
+| **Full-text views/downloads** | A usage metric counting the total views and/or downloads of the full-text document. |
+| **Access indicator** | An icon (e.g., 🔓) or label ("Open Access") that indicates the full text is available to download without a subscription. |
+
 
 -----
 
@@ -103,13 +114,13 @@ Each record shows:
 
 Seven sort options are available:
 ![Sort Options](../src/guide/options.png)
-1.  **Relevance** (default)
-2.  Newest First
-3.  Oldest First
-4.  Most Cited (by Papers)
-5.  Most Cited (by Patents)
-6.  Most Popular (by download/view volume)
-7.  Publication Title A–Z / Z–A
+1.  `Relevance` (default)
+2.  `Newest First`
+3.  `Oldest First`
+4.  `Most Cited by Papers`
+5.  `Most Cited by Patents`
+6.  `Most Popular` (by download/view volume)
+7.  `Publication Title A–Z / Z–A`
 
 -----
 
@@ -118,15 +129,16 @@ Seven sort options are available:
 
 Use the **left-hand facet panel** for:
 
-  * **Search within results** (secondary search)
-  * Content Type (journal, conference, standard, etc.)
-  * Publication Year (drag the year slider)
-  * Author (only names in the current result set)
-  * Affiliation (only institutions in the current result set)
-  * Topic / Publisher / IEEE Technical Society
+  * `Search within results` (secondary search)
+  * `Content Type` (journal, conference, standard, etc.)
+  * `Publication Year` (drag the year slider)
+  * `Author` (only names in the current result set)
+  * `Affiliation` (only institutions in the current result set)
+  * `Topic / Publisher / IEEE Technical Society`
 
-Multiple selections can be combined, and counts refresh instantly.
-
+::: note
+==Multiple selections can be combined, and counts refresh instantly.==
+::: 
 -----
 
 ### **Secondary search**

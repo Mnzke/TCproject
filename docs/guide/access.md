@@ -21,11 +21,11 @@ permalink: /guide/4gkhy0vz/
 
 ### **💻 Off-Campus Access (3 methods)**
 
-> **1. CARSI Shibboleth:**
-> Visit [https://ieeexplore.ieee.org](https://ieeexplore.ieee.org), click **“Institutional Sign In”**, choose **“Shibboleth”**, enter “Southeast University”, and log in with your SEU unified identity credentials.
+**1. CARSI Shibboleth:**
+Visit [https://ieeexplore.ieee.org](https://ieeexplore.ieee.org), click **“Institutional Sign In”**, choose **“Shibboleth”**, enter “Southeast University”, and log in with your SEU unified identity credentials.
 
-> **2. VPN:**
-> Connect to the SEU VPN ([https://vpn.seu.edu.cn](https://vpn.seu.edu.cn)) first, then browse the IEEE site normally.
+ **2. VPN:**
+Connect to the SEU VPN ([https://vpn.seu.edu.cn](https://vpn.seu.edu.cn)) first, then browse the IEEE site normally.
 
-> **3. Remote Access:**
-> While on campus, sign in to your personal IEEE account, go to **“My Settings” → enable “Remote Access”**; the device is authenticated for 90 days (renewal required on campus every 90 days).
+ **3. Remote Access:**
+While on campus, sign in to your personal IEEE account, go to **“My Settings” → enable “Remote Access”**; the device is authenticated for 90 days (renewal required on campus every 90 days).
