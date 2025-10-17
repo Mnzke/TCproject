@@ -186,6 +186,10 @@ export default defineUserConfig({
           link: '/guide/introduction.html'
         },
         {
+          text: 'User Guide',
+          link: '/guide/userguide.html'
+        },
+        {
           text: 'Access Methods',
           link: '/guide/access.html'
         },
