@@ -196,7 +196,7 @@ export default defineUserConfig({
           link: '/guide/access.html'
         },
         {
-          text: 'Search Methods',
+          text: 'Search Guide',
           link: '/guide/search.html'
         },
         {
