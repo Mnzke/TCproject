@@ -5,6 +5,7 @@ permalink: /guide/l6h9ke900/
 ---
 
 ## **Set Search Preferences**
+---
 Users can set search preferences or change the default search settings and apply them to all searches.IEEE members can also change the download method when downloading citation information.Users only need to click “Preferences” under “MySettings” at the top of the page to bring up the following dialog box. Set suitable search preferences here, and finally click “Update” to save the updated search settings.
 
 ### **Search Options**
@@ -15,6 +16,18 @@ Users can set search preferences or change the default search settings and apply
 ![Search Options](../src/guide/searchoption.jpg)
 ---
 
+## **Set Alert Settings**
+---
+Users can customize their preferences to receive update alerts and corresponding links for journals, magazines, conference proceedings, standards, and e-books based on their specific needs.Before making these settings, please specify an email address in Preferences.
 
-
-
+::: tip
+#### **Steps to set up update alerts:**
+ **1.** On the IEEE Xplore platform homepage, hover the mouse over My Settings in the navigation bar and click Alerts to enter the update alert settings page.  
+   
+ **2.** Alert settings page:
+   - In the **Journal & Magazines** tab, check the titles for which you want to set update reminders and click “Update”.  
+   - In the **Conferences** tab, check the publishing house conferences for which you want to set reminders and click “Update”.  
+   - In the **Standards By Version** tab, search for the standard numbers for which you want to set update reminders, check them, and click “Update”.  
+   - In the **eBooks** tab, check the publisher's e-books for which you want to set reminders and click “Update”.
+:::
+![Alert](../src/guide/alert.jpg)

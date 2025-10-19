@@ -1,9 +1,11 @@
 ---
-title: Search Methods
+title: Search Guide
 createTime: 2025/10/16 14:44:36
 permalink: /guide/l6h9ke92/
 ---
-
+-----
+## **🧾Search Methods**
+-----
 ### **1. 🔎 Global Search**
 ![Global Search](../src/guide/global.png)
 By default, IEEE Xplore searches only the **metadata**. You can limit the search to specific fields using **Boolean expressions**.
@@ -147,3 +149,34 @@ Use the **left-hand facet panel** for:
 Type a new term in the **“Search within results”** box at the top of the page, or select facets on the left. The query is automatically combined with the previous one using **AND**.
 
   * For example, after searching for `Java`, entering `XML` in the secondary box is equivalent to searching for `Java AND XML`.
+-----
+
+## **🧭 Search Query**
+-----
+### **Save Search Query**
+Saving search queries allows users to conveniently perform searches in the future.Each account can save a maximum of 15 search queries.Additionally, users can set up a service to receive reminders for search query updates.When there are updates related to the content of the search query, the platform will send an email reminder.
+
+::: tip
+#### **Steps to create and save a search strategy :**
+1. On the search results interface, click "Set Search Alert" to display the dialog box for saving the search query.
+2. Enter the name to save the search query. If you want to set up update alerts, click "Save".
+:::
+::: note
+* If you have not left an email address in Preferences, an orange prompt will appear in step 2 :"Set the specified email address according to the prompt."
+* If you did not set up an update alert when saving the search formula, you can still click “SavedSearches” in the “MySettings” option in the navigation bar.Reconfigure on this page.
+* If you further refine your search on the search results page, for example, by narrowing it down to specific authors, publication titles, and years, these conditions will also be saved in the search query.
+:::
+---
+### **View Saved Search Queries**
+Users can browse or delete saved searches, and they can also reset them.
+::: tip
+#### **way to view saved search queries :**
+Hover the mouse over the “My Settings” option in the navigation bar and click “Alerts”. The page will display saved search queries, including the name of the search query, search terms, and editing options for each search query.
+:::
+#### **What can users do?**
+* Clicking on the search term name executes the search.
+* Click "RSS" to get updates and feedback.
+* Click "Edit name" to reset the search query name or reset the update reminder.
+* Click to Disable update reminders.
+* Click "Remove" to delete the saved search formula.
+---
