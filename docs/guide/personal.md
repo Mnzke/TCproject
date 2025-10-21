@@ -4,30 +4,73 @@ createTime: 2025/10/17 21:05:05
 permalink: /guide/l6h9ke900/
 ---
 
-## **Set Search Preferences**
----
-Users can set search preferences or change the default search settings and apply them to all searches.IEEE members can also change the download method when downloading citation information.Users only need to click “Preferences” under “MySettings” at the top of the page to bring up the following dialog box. Set suitable search preferences here, and finally click “Update” to save the updated search settings.
+# ⚙️ Personal Preferences
 
-### **Search Options**
-* In Search, selects whether the search scope is in metadata fields or full text and metadata fields.
-* In Search History Recording, select whether to enable or disable the search history recording for .
-* The amount of information displayed in the search results is set using the ResultsLayout option. 
-* The **Title** option retrieves only the title of the literature; **Title & Citation** (default) includes the title of the literature, author, publication name, and bibliographic information; **Title, Citation & Abstract** also includes the first 30-40 words of the abstract; use the **Results per Page** option to set the number of titles on the search results page, you can choose 10 pages, 25 pages (default), 50 pages, or 100 pages. 
-![Search Options](../src/guide/searchoption.jpg)
+This guide introduces how to **set IEEE Xplore search and alert preferences** for a personalized research experience.  
+
 ---
 
-## **Set Alert Settings**
----
-Users can customize their preferences to receive update alerts and corresponding links for journals, magazines, conference proceedings, standards, and e-books based on their specific needs.Before making these settings, please specify an email address in Preferences.
+## 🔍 Set Search Preferences
 
-::: tip
-#### **Steps to set up update alerts:**
- **1.** On the IEEE Xplore platform homepage, hover the mouse over My Settings in the navigation bar and click Alerts to enter the update alert settings page.  
-   
- **2.** Alert settings page:
-   - In the **Journal & Magazines** tab, check the titles for which you want to set update reminders and click “Update”.  
-   - In the **Conferences** tab, check the publishing house conferences for which you want to set reminders and click “Update”.  
-   - In the **Standards By Version** tab, search for the standard numbers for which you want to set update reminders, check them, and click “Update”.  
-   - In the **eBooks** tab, check the publisher's e-books for which you want to set reminders and click “Update”.
+Users can customize how IEEE Xplore searches and displays results.  
+To access this feature, click **“Preferences”** under **My Settings** at the top of the page.  
+A dialog box will appear where you can adjust search scope, result display style, and more.  
+After editing, click **Update** to save your changes.
+
+### 🧩 Search Options
+
+| Option | Description |
+|:--|:--|
+| **Search Scope** | Choose whether to search in **metadata fields only** or in **full text + metadata fields**. |
+| **Search History** | Enable or disable automatic recording of past searches. |
+| **Results Layout** | Control how much information each result shows. |
+| **Results per Page** | Choose how many records appear per page: `10`, `25 (default)`, `50`, or `100`. |
+
+**Display Modes:**
+-  **Title** — shows only document titles.  
+-  **Title & Citation** *(default)* — includes authors, publication name, and bibliographic info.  
+-  **Title, Citation & Abstract** — adds the first 30–40 words of the abstract.
+
+<div align="center">
+  <img src="../src/guide/searchoption.jpg" alt="Search Options" width="80%" style="border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.15);" />
+  <p><em>Figure 1. IEEE Xplore search preference panel</em></p>
+</div>
+
+---
+
+## 🔔 Set Alert Settings
+
+Keep up to date with the latest **journals**, **conferences**, **standards**, and **eBooks** via personalized alerts.  
+Before enabling alerts, ensure an active email address is registered in your **Preferences**.
+
+::: tip 🧭 How to Set Up Update Alerts
+1️⃣ On the IEEE Xplore homepage, hover over **My Settings** and click **Alerts**.  
+2️⃣ On the **Alerts** page, customize your notifications:  
+
+-  **Journals & Magazines** — select titles to follow and click **Update**.  
+-  **Conferences** — choose publishers’ conferences to receive updates.  
+-  **Standards by Version** — search for specific standard numbers and subscribe.  
+-  **eBooks** — check the eBook publishers you want updates from.  
+
+Click **Update** in each tab to save your preferences.
 :::
-![Alert](../src/guide/alert.jpg)
+
+<div align="center">
+  <img src="../src/guide/alert.jpg" alt="Alert Settings" width="80%" style="border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.15);" />
+  <p><em>Figure 2. IEEE Xplore alert management page</em></p>
+</div>
+
+---
+
+## 🧠 Tips
+
+::: info 🌟 Recommendation
+To make searching more efficient:
+- Save your most-used filters as defaults.
+- Enable **search history** if you perform iterative queries.
+- Use **alert subscriptions** to track key journals automatically.
+:::
+
+---
+
+✨ *Now your IEEE Xplore experience will be personalized and efficient!*
