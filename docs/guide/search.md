@@ -151,36 +151,52 @@ Type a new term in the **“Search within results”** box at the top of the pag
   * For example, after searching for `Java`, entering `XML` in the secondary box is equivalent to searching for `Java AND XML`.
 -----
 
-## **🧭 Search Query**
------
-### **Save Search Query**
-Saving search queries allows users to conveniently perform searches in the future.Each account can save a maximum of 15 search queries. Additionally, users can set up a service to receive reminders for search query updates.When there are updates related to the content of the search query, the platform will send an email reminder.
-
-::: tip
-##### **Steps to create and save a search strategy :**
-1. On the search results interface, **click** ==“Set Search Alert”== to display the dialog box for saving the search query.
-2. Enter the name to save the search query. If you want to set up update alerts, **click** ==“Save”==.
-:::
-
-
-::: note
-* If you have not left an email address in Preferences, an orange prompt will appear in ==step 2 :"Set the specified email address according to the prompt."==
-* If you did not set up an update alert when saving the search formula, you can still **click** ==“SavedSearches”== in the ==“MySettings”== option in the navigation bar.Reconfigure on this page.
-* If you further refine your search on the search results page, for example, by narrowing it down to ==specific authors==, ==publication titles==, and ==years==, these conditions will also be saved in the search query.
-
-:::
+## 🧭 **Search Query**
 ---
-### **View Saved Search Queries**
-Users can browse or delete saved searches, and they can also reset them.
 
-::: tip
-##### **Way to view saved search queries :**
-Hover the mouse over the ==“My Settings”== option in the navigation bar and click ==“Alerts”==. The page will display saved search queries, including the name of the search query, search terms, and editing options for each search query.
+<div class="border border-gray-200 rounded-2xl shadow-md p-6 bg-gradient-to-br from-white via-blue-50 to-indigo-50 leading-relaxed">
+
+### 💾 **Save Search Query**
+
+Saving search queries allows users to conveniently perform searches in the future.  
+Each account can save up to **15 search queries**. Additionally, users can enable an **email alert service** — when new results matching the query appear, the platform will send a notification.
+
+::: tip 🌟 **Steps to Create and Save a Search Strategy**
+1️⃣ On the **search results interface**, click **"Set Search Alert"** to open the save dialog.  
+2️⃣ Enter a name for the search query.  
+3️⃣ (Optional) Enable **update alerts**, then click **"Save"** to confirm.  
 :::
-#### **What can users do?**
-* Clicking on the ==search term name== executes the search.
-* Click =="RSS"== to get updates and feedback.
-* Click =="Edit name"== to reset the search query name or reset the update reminder.
-* Click to ==Disable update reminders==.
-* Click =="Remove"== to delete the saved search formula.
+
+::: note ✉️ **Notes**
+* If you have not set an email address in **Preferences**, an orange prompt will appear:  
+  👉 "Set the specified email address according to the prompt."  
+* If you didn't enable alerts when saving, go to **"My Settings → Saved Searches"** to reconfigure.  
+* Any refinements (e.g., author, publication, year filters) made on the search results page will also be stored in the saved query.  
+:::
+
+</div>
+
 ---
+
+<div class="border border-gray-200 rounded-2xl shadow-md p-6 bg-gradient-to-br from-white via-indigo-50 to-purple-50 leading-relaxed">
+
+### 📂 **View Saved Search Queries**
+
+Users can browse, delete, or reset their saved search queries.
+
+::: tip 🔍 **How to View Saved Search Queries**
+Hover over **"My Settings"** in the navigation bar → click **"Alerts"**.  
+The page displays all saved search queries, including:
+- **Query Name**
+- **Search Terms**
+- **Editing Options**
+:::
+
+#### ✅ **Available Actions**
+* 🔁 Click the **query name** → execute the search.  
+* 📰 Click **"RSS"** → get real-time updates and feedback.  
+* ✏️ Click **"Edit Name"** → rename or reset update reminders.  
+* 🔕 Click **"Disable Alerts"** → stop receiving notifications.  
+* 🗑️ Click **"Remove"** → delete the saved search query.
+
+</div>
