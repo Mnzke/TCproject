@@ -108,12 +108,12 @@ export default defineUserConfig({
       alert: false,
       //   abbr: true,         // 启用 abbr 语法  *[label]: content
       //   annotation: true,   // 启用 annotation 语法  [+label]: content
-      //   pdf: true,          // 启用 PDF 嵌入 @[pdf](/xxx.pdf)
+        pdf: true,          // 启用 PDF 嵌入 @[pdf](/xxx.pdf)
       //   caniuse: true,      // 启用 caniuse 语法  @[caniuse](feature_name)
       //   plot: true,         // 启用隐秘文本语法 !!xxxx!!
       //   bilibili: true,     // 启用嵌入 bilibili视频 语法 @[bilibili](bid)
       //   youtube: true,      // 启用嵌入 youtube视频 语法 @[youtube](video_id)
-      //   artPlayer: true,    // 启用嵌入 artPlayer 本地视频 语法 @[artPlayer](url)
+        artPlayer: true,    // 启用嵌入 artPlayer 本地视频 语法 @[artPlayer](url)
       //   audioReader: true,  // 启用嵌入音频朗读功能 语法 @[audioReader](url)
       //   icon: { provider: 'iconify' },        // 启用内置图标语法  ::icon-name::
       //   table: true,        // 启用表格增强容器语法 ::: table
@@ -187,37 +187,64 @@ export default defineUserConfig({
           text: 'Introduction',
           link: '/guide/introduction.html'
         },
+        // {
+        //   text: 'User Guide',
+        //   link: '/guide/userguide.html'
+        // },
         {
-          text: 'User Guide',
-          link: '/guide/userguide.html'
+          text: 'Usage Guide',
+          collapsed: false,
+          items: [
+            {
+              text: 'Access Methods',
+              link: '/guide/access.html'
+            },
+            {
+              text: 'Search Guide',
+              link: '/guide/search.html'
+            },
+            {
+              text: 'Reading and Downloading',
+              link: '/guide/readanddownload.html'
+            }
+          ]
         },
         {
-          text: 'Access Methods',
-          link: '/guide/access.html'
+          text: 'More Information',
+          collapsed: false,
+          items: [
+            {
+              text: 'Author Information',
+              link: '/guide/authordetail.html'
+            },
+            {
+              text: 'Personal Preferences',
+              link: '/guide/personal.html'
+            },
+            {
+              text: 'Addition of Articles',
+              link: '/guide/articleadd.html'
+            }
+          ]
         },
         {
-          text: 'Search Guide',
-          link: '/guide/search.html'
-        },
-        {
-          text: 'Reading and Downloading',
-          link: '/guide/readanddownload.html'
+          text: 'More Source',
+          collapsed: false,
+          items: [
+            {
+              text: 'PDF Introduction',
+              link: '/guide/PDF.md'
+            },
+         
+            {
+              text: 'Video Introduction',
+              link: '/guide/video.md'
+            }
+          ]
         },
         {
           text: 'Tools',
           link: '/guide/markdown.html'
-        },
-        {
-          text: 'Author Information',
-          link: '/guide/authordetail.html'
-        },
-        {
-          text: 'Personal Preferences',
-          link: '/guide/personal.html'
-        },
-        {
-          text: 'Addition of Articles',
-          link: '/guide/articleadd.html'
         },
       ],
     },
