@@ -242,10 +242,10 @@ export default defineUserConfig({
             }
           ]
         },
-        {
-          text: 'Tools',
-          link: '/guide/markdown.html'
-        },
+        // {
+        //   text: 'Tools',
+        //   link: '/guide/markdown.html'
+        // },
       ],
     },
 
