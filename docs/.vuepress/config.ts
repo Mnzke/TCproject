@@ -15,7 +15,7 @@ import { plumeTheme } from 'vuepress-theme-plume'
 
 
 export default defineUserConfig({
-  base: '/TCproject/',
+  base: '/',
   lang: 'en-US',
   locales: {
     '/': {
@@ -42,7 +42,7 @@ export default defineUserConfig({
 
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
-    // hostname: 'https://your_site_url',
+    hostname: 'https://mmgz.fun/',
 
     /* 文档仓库配置，用于 editLink */
     // docsRepo: '',
