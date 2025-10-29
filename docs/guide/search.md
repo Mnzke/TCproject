@@ -3,9 +3,8 @@ title: Search Guide
 createTime: 2025/10/16 14:44:36
 permalink: /guide/l6h9ke92/
 ---
------
 ## **🧾Search Methods**
------
+
 ### **1. 🔎 Global Search**
 ![Global Search](../src/guide/global.png)
 By default, IEEE Xplore searches only the **metadata**. You can limit the search to specific fields using **Boolean expressions**.
@@ -34,8 +33,7 @@ The platform automatically normalizes British/American spelling, singular/plural
 ![Advanced Search](../src/guide/advanced.png)
   * **Access:** Click **“Advanced Search”** beneath the main search box.
 
-  ::: tip
-   **How to use:**
+  ::: tip **How to use**
     * **Fill in the three-line template**: choose ==**“field – operator – search term”**==; add more rows as needed.
     * Supports **“AND / OR / NOT”**; ==parentheses `()` for nesting are **“not”** supported.==
     * Use the options at the bottom of the page to limit publication years.
@@ -46,8 +44,8 @@ The platform automatically normalizes British/American spelling, singular/plural
 ### **3. ⌨️ Command Search**
 ![Command Search](../src/guide/command.png)
   * **Access point:** **“Command Search”**, located to the right of Advanced Search.
-  ::: tip
-  * **How to use:** The syntax is identical to the single-box search, but it provides field buttons and respects parenthesis priority, making it ideal for complex strategies.
+  ::: tip **How to use**
+  *  The syntax is identical to the single-box search, but it provides field buttons and respects parenthesis priority, making it ideal for complex strategies.
   :::
 
 **Example:**
@@ -66,13 +64,12 @@ This feature lets you quickly locate papers by a specific author.
 
   * **Access:** Choose **“Authors”** from the drop-down menu on the left side of the top search box.
   
-  ::: warning
-  * **Points to remember:**
-      * The platform searches all fields and is ==**not case-sensitive**==.
-      * **Wildcards** are allowed, but at least three letters must be given in either the first or last name (e.g., `M*ke Jone` is valid; `J*y` is not).
-      * Citation downloads display the normalized form: ==surname plus first-name initials==.
-      * The selected author name appears at the top of the results; a small **“x”** beside it lets you remove that filter.
-      * Use the left-hand facet panel to refine the results further.
+  ::: warning **Points to remember**
+    * The platform searches all fields and is ==**not case-sensitive**==.
+    * **Wildcards** are allowed, but at least three letters must be given in either the first or last name (e.g., `M*ke Jone` is valid; `J*y` is not).
+    * Citation downloads display the normalized form: ==surname plus first-name initials==.
+    * The selected author name appears at the top of the results; a small **“x”** beside it lets you remove that filter.
+    * Use the left-hand facet panel to refine the results further.
   :::
 
 -----
@@ -85,13 +82,12 @@ This feature lets you quickly locate papers by a specific author.
 *	You can find the publication you need and directly click on the title to access its journal page (journals and magazines) or abstract (standards, e-books, and online courses).Some journals offer the option to download entire issues.
 
 
------
 
 ## 📊 Analyzing Search Results
 
 -----
 
-### **What appears on the results screen?**
+### **1.What appears on the results screen?**
 ![Search Results](../src/guide/results.png)
 
 Each record shows:
@@ -112,7 +108,7 @@ Each record shows:
 
 -----
 
-### **Sorting the results**
+### **2. Sorting the results**
 
 Seven sort options are available:
 ![Sort Options](../src/guide/options.png)
@@ -126,7 +122,7 @@ Seven sort options are available:
 
 -----
 
-### **Refining the results**
+### **2. Refining the results**
 ![Refine Results](../src/guide/refine.png)
 
 Use the **left-hand facet panel** for:
@@ -143,20 +139,16 @@ Use the **left-hand facet panel** for:
 ::: 
 -----
 
-### **Secondary search**
+### **2. Secondary search**
 ![Secondary Search](../src/guide/secondary.png)
 
 Type a new term in the **“Search within results”** box at the top of the page, or select facets on the left. The query is automatically combined with the previous one using **AND**.
 
   * For example, after searching for `Java`, entering `XML` in the secondary box is equivalent to searching for `Java AND XML`.
------
 
 ## 🧭 **Search Query**
 ---
-
-<div class="border border-gray-200 rounded-2xl shadow-md p-6 bg-gradient-to-br from-white via-blue-50 to-indigo-50 leading-relaxed">
-
-### 💾 **Save Search Query**
+### 💾 **1.Save Search Query**
 
 Saving search queries allows users to conveniently perform searches in the future.  
 Each account can save up to **15 search queries**. Additionally, users can enable an **email alert service** — when new results matching the query appear, the platform will send a notification.
@@ -174,13 +166,10 @@ Each account can save up to **15 search queries**. Additionally, users can enabl
 * Any refinements (e.g., author, publication, year filters) made on the search results page will also be stored in the saved query.  
 :::
 
-</div>
 
 ---
 
-<div class="border border-gray-200 rounded-2xl shadow-md p-6 bg-gradient-to-br from-white via-indigo-50 to-purple-50 leading-relaxed">
-
-### 📂 **View Saved Search Queries**
+### 📂 **2.View Saved Search Queries**
 
 Users can browse, delete, or reset their saved search queries.
 
@@ -199,4 +188,3 @@ The page displays all saved search queries, including:
 * 🔕 Click **"Disable Alerts"** → stop receiving notifications.  
 * 🗑️ Click **"Remove"** → delete the saved search query.
 
-</div>

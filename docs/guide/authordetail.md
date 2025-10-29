@@ -23,7 +23,6 @@ There, you can view the author's profile, affiliation, historical publication to
 <div class="border border-gray-200 rounded-2xl shadow-md p-6 bg-gradient-to-br from-white via-indigo-50 to-purple-50 leading-relaxed">
 
 ::: note
-**Please note:**
 * For articles published after **2000**, clicking the author link will take you to the **author's details page**.  
 * Personal photos and profiles are primarily from journal articles and submitted by the authors.
 :::
@@ -31,5 +30,5 @@ There, you can view the author's profile, affiliation, historical publication to
 </div>
 
 <p align="center">
-  <img src="../src/guide/authordetail.jpg" alt="Author Details Page" width="700px" style="border-radius: 12px; box-shadow: 0 4px 14px rgba(0,0,0,0.15); margin-top: 16px;">
+  <img src="../src/guide/authordetail.png" alt="Author Details Page" width="700px" style="border-radius: 12px; box-shadow: 0 4px 14px rgba(0,0,0,0.15); margin-top: 16px;">
 </p>

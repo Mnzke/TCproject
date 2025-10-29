@@ -9,7 +9,14 @@ import { defineNavbarConfig } from 'vuepress-theme-plume'
 
 export const enNavbar = defineNavbarConfig([
   { text: 'Home', link: '/' },
-  { text: 'IEEE Guide', link: '/guide/' }
+  { text: 'IEEE Guide', link: '/guide/introduction.html' },
+  {
+    text: 'More Sources',
+    items: [
+      { text: 'PDF', link: '/PDF.md' },
+      { text: 'VIDEO', link: '/video.md' },
+    ]
+  } 
 ])
 
 export const zhNavbar = defineNavbarConfig([

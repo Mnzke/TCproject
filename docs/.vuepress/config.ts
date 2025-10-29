@@ -227,31 +227,15 @@ export default defineUserConfig({
             }
           ]
         },
-        {
-          text: 'More Source',
-          collapsed: false,
-          items: [
-            {
-              text: 'PDF Introduction',
-              link: '/guide/PDF.md'
-            },
-         
-            {
-              text: 'Video Introduction',
-              link: '/guide/video.md'
-            }
-          ]
-        },
+    
         // {
         //   text: 'Tools',
         //   link: '/guide/markdown.html'
         // },
+
+        
       ],
+
     },
-
- 
-   
- 
-
   }),
 })
